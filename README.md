@@ -27,22 +27,6 @@ Vienna FoodPrint helps users:
 ## Prototype
 Interactive prototype: [Figma Prototype](https://www.figma.com/make/vJrAOggfLSZhQxc2zHKl69/Vienna-Food-Print?p=f&t=tfX8EPgACgG919sQ-0&fullscreen=1)
 
-## Screenshots
-### Home
-![Home](images/home.png)
-
-### Scan Product
-![Scan](images/scan.png)
-
-### Food Swaps
-![Swap](images/swap.png)
-
-### Meal Ideas
-![Meals](images/meals.png)
-
-### Vienna Impact
-![Impact](images/impact.png)
-
 ## Data Sources
 - Eurostat Material Flow Accounts
 - Statistik Austria
