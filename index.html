@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7t Think Tank | Vienna Food Footprint Toolkit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #f8f7f4;
+            color: #2d2d2d;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2d6a4f, #40916c);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        header h1 span {
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        header p.subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            flex: 1;
+            min-width: 150px;
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d6a4f;
+        }
+
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.3rem;
+        }
+
+        .video-section {
+            margin: 2.5rem 0;
+        }
+
+        .video-section h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #2d6a4f;
+        }
+
+        .video-container {
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .video-container video {
+            width: 100%;
+            display: block;
+        }
+
+        .about-section {
+            margin: 2.5rem 0;
+        }
+
+        .about-section h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #2d6a4f;
+        }
+
+        .toolkit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .toolkit-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .toolkit-card h3 {
+            font-size: 1rem;
+            color: #2d6a4f;
+            margin-bottom: 0.5rem;
+        }
+
+        .toolkit-card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .links-section {
+            margin: 2.5rem 0;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .links-section h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #2d6a4f;
+        }
+
+        .links-section a {
+            display: inline-block;
+            margin: 0.3rem 0.5rem 0.3rem 0;
+            padding: 0.5rem 1rem;
+            background: #2d6a4f;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .links-section a:hover {
+            background: #40916c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #999;
+            font-size: 0.85rem;
+            border-top: 1px solid #e8e8e8;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #2d6a4f;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            main {
+                padding: 1rem;
+            }
+            .stats-row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>7t <span>Think Tank</span></h1>
+    <p class="subtitle">Reducing Vienna's Material Footprint Through Sustainable Food Systems</p>
+    <div class="badge">CEU Hackathon 2025 — Challenge 3: Sufficiency Toolkit</div>
+</header>
+
+<main>
+
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="number">14t</div>
+            <div class="label">Vienna's current material footprint per capita</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">7t</div>
+            <div class="label">Target per capita</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">49%</div>
+            <div class="label">EU consumption footprint from food</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">390k t</div>
+            <div class="label">Potential annual reduction for Vienna</div>
+        </div>
+    </div>
+
+    <section class="video-section">
+        <h2>App Prototype Demo</h2>
+        <div class="video-container">
+            <video controls preload="metadata" poster="">
+                <source src="ViennaFoodPrint.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h2>The Vienna Food Footprint Toolkit</h2>
+        <p>A three-part sufficiency toolkit grounded in Doughnut Economics, combining citizen empowerment with institutional reform to reduce Vienna's food-related material footprint.</p>
+
+        <div class="toolkit-grid">
+            <div class="toolkit-card">
+                <h3>Your Food Footprint App</h3>
+                <p>Consumer-facing tool with product scanning, smart food swaps, a sustainable food map, and a city-wide impact simulator.</p>
+            </div>
+            <div class="toolkit-card">
+                <h3>Procurement Reform</h3>
+                <p>Material footprint criteria for Vienna's 100,000 daily public meals in schools, hospitals, and care-home canteens.</p>
+            </div>
+            <div class="toolkit-card">
+                <h3>Community Infrastructure</h3>
+                <p>Support for food cooperatives (MILA, Morgenrot, Um's Eck) through subsidised space, mentorship, and network integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="links-section">
+        <h2>Resources</h2>
+        <a href="https://id-panic-23110695.figma.site/" target="_blank">Interactive Prototype (Figma)</a>
+        <a href="7t - Policy Brief v5.pdf" target="_blank">Policy Brief (PDF)</a>
+    </section>
+
+</main>
+
+<footer>
+    <p>7t Think Tank — CEU Vienna, March 2025</p>
+    <p>Built for <a href="https://www.ceu.edu" target="_blank">Central European University</a> Hackathon, Challenge 3</p>
+</footer>
+
+</body>
+</html>
