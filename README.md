@@ -25,7 +25,7 @@ Vienna FoodPrint helps users:
 - **Learn & Policies**: educational section on food systems and policy tools
 
 ## Prototype
-Interactive prototype: [Figma Prototype](https://www.figma.com/make/vJrAOggfLSZhQxc2zHKl69/Vienna-Food-Print?p=f&t=tfX8EPgACgG919sQ-0&fullscreen=1)
+Interactive prototype: [Figma Prototype]([(https://id-panic-23110695.figma.site/))
 
 ## Data Sources
 - Eurostat Material Flow Accounts
